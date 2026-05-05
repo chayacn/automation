@@ -15,7 +15,7 @@ public class IBMTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.ibm.com/in-en");
-		Reporter.log("IBM is launched", true);
+		Reporter.log("IBM page is launched", true);
 	}
 
 }
