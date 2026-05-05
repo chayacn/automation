@@ -16,7 +16,7 @@ public class InfosysTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.infosys.com/");
-		Reporter.log("infosys is launched", true);
+		Reporter.log("infosys page is launched", true);
 	}
 	
 
